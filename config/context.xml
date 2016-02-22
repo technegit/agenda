@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context>
+    <Resource accessToUnderlyingConnectionAllowed="true" 
+        type="javax.sql.DataSource"
+        driverClassName="org.h2.Driver"
+        name="jdbc/Angular" 
+        username="root"
+        password="root" 
+        removeAbandoned="false" 
+        removeAbandonedTimeout="60" 
+        logAbandoned="true" 
+        url="jdbc:h2:file:~/598E14D09E8D48EAA442BA284B0798D7;DATABASE_TO_UPPER=false;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" />
+</Context>
