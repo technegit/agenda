@@ -83,26 +83,4 @@ public class Hash {
     return result.toString();
   }
 
-  /**
-   * <pre>
-   * Codifica uma string alterando caracteres dentro da tabela ASCII.
-   * </pre>
-   *
-   * @param value Valor a ser encriptado.
-   * @return Valor codificado.
-   */
-  public static final String rot47(String value) {
-    final String temp = notNull(value);
-    StringBuilder result = new StringBuilder();
-    for (int i = 0; i < temp.length(); i++) {
-      char character = temp.charAt(i);
-      if (character != ' ') {
-        character += 47;
-        if (character > '~') character -= 94;
-      }
-      result.append(character);
-    }
-    return result.toString();
-  }
-
 }
